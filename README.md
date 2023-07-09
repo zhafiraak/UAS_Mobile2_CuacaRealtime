@@ -190,9 +190,21 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 ```
-### Outputnya
+* Setelah membuat source code pada **main.dart**, lalu tambahkan package http pada **pubspec.yaml** seperti berikut:
+
+```dart
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+```
+* Lalu jalankan perintah **flutter pub get** di terminal, perintah ini digunakan untuk mengambil semua paket (dependencies) yang didefinisikan dalam file **pubspec.yaml** dan mengunduhnya ke dalam project yang kita buat. Setelah semua paket berhasil diunduh, jalankan perintah **flutter run**.
+  
+### Output
 ![Gambar 1](img/ss1.png)
 
 - Masukkan nama kota yang ingin kalian cari.
   
 ![Gambar 2](img/ss2.png)
+
+## TerimaKasih
